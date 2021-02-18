@@ -83,6 +83,7 @@ section {
   color: var(--white);
   background: var(--primary);
   text-decoration: none;
+  border-radius: 8%;
 }
 
 .navbar .navbar-brand {
@@ -359,8 +360,9 @@ ul.timeline>li:before {
   margin: 30px 0 30px 0;
   border-radius: 6px;
   color: rgba(0, 0, 0, 0.87);
-  background: var(--white);
+  background: black;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: white;
 }
 
 .custom-card ul {
@@ -371,10 +373,11 @@ ul.timeline>li:before {
 }
 
 .custom-card ul li {
-  color: #3c4857;
+  color: #b337a8;
   text-align: center;
   padding: 12px 0;
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+  border-color: white;
 }
 
 .custom-card ul li:last-child {
@@ -519,3 +522,5 @@ h5 {
   font-size: 40px;
   transition: 0.5s;
 }
+
+
