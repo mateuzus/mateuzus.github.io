@@ -6,7 +6,7 @@
 */
 
 :root {
-  --primary: #3f6ad8;
+  --primary: #b337a8;
   --background: #f5f6f8;
   --white: #ffffff;
   --black: #000000;
@@ -56,6 +56,8 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 70px;
+  background-color: #000000;
+  color: white;
 }
 
 /*
@@ -283,6 +285,7 @@ section {
   background-position: center center;
   background-size: cover;
   height: 500px;
+  border-radius: 10%;
 }
 
 /*
@@ -296,6 +299,7 @@ section {
   width: 100%;
   margin-bottom: 10px;
   padding-bottom: 10px;
+  background-color: black;
 }
 
 .resume-wrap .date {
@@ -382,11 +386,11 @@ ul.timeline>li:before {
 }
 
 .bg-primary {
-  background-color: var(--primary) !important;
+  background-color: black;
 }
 
 .bg-light {
-  background: var(--background) !important;
+  background-color: black !important;
 }
 
 /*
@@ -484,4 +488,34 @@ h5 {
 .subtitle {
   font-size: 20px;
   font-weight: 700;
+}
+
+.btn-outline-primary{
+  background-color: white;
+  color: #b337a8;
+  border-color: #b337a8;
+}
+
+.btn-outline-primary:hover{
+  background-color: #b337a8;
+  color: white;
+  border-color: #b337a8;
+}
+
+.fa-github:hover{
+  color: #b337a8;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.fa-whatsapp:hover{
+  color: #b337a8;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.fa-linkedin:hover{
+  color: #b337a8;
+  font-size: 40px;
+  transition: 0.5s;
 }
