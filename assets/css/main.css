@@ -282,10 +282,10 @@ section {
 */
 
 .user-image {
-  background-image: url("../img/Mateus.jpeg");
+  background-image: url("../img/mat.png");
   background-position: center center;
   background-size: cover;
-  height: 500px;
+  height: 550px;
   border-radius: 10%;
 }
 
