@@ -6,7 +6,7 @@
 */
 
 :root {
-  --primary: #b337a8;
+  --primary: dodgerblue;
   --background: #f5f6f8;
   --white: #ffffff;
   --black: #000000;
@@ -373,7 +373,7 @@ ul.timeline>li:before {
 }
 
 .custom-card ul li {
-  color: #b337a8;
+  color: dodgerblue;
   text-align: center;
   padding: 12px 0;
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
@@ -495,30 +495,30 @@ h5 {
 
 .btn-outline-primary{
   background-color: white;
-  color: #b337a8;
-  border-color: #b337a8;
+  color: dodgerblue;
+  border-color: dodgerblue;
 }
 
 .btn-outline-primary:hover{
-  background-color: #b337a8;
+  background-color: dodgerblue;
   color: white;
-  border-color: #b337a8;
+  border-color: dodgerblue;
 }
 
 .fa-github:hover{
-  color: #b337a8;
+  color: dodgerblue;
   font-size: 40px;
   transition: 0.5s;
 }
 
 .fa-whatsapp:hover{
-  color: #b337a8;
+  color: dodgerblue;
   font-size: 40px;
   transition: 0.5s;
 }
 
 .fa-linkedin:hover{
-  color: #b337a8;
+  color: dodgerblue;
   font-size: 40px;
   transition: 0.5s;
 }
