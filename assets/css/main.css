@@ -6,7 +6,7 @@
 */
 
 :root {
-  --primary: dodgerblue;
+  --primary: rgb(255, 0, 98);
   --background: #f5f6f8;
   --white: #ffffff;
   --black: #000000;
@@ -124,7 +124,7 @@ section {
 }
 
 .single-slider {
-  background-image: url("../img/abs.jpg");
+  background-image: url("../img/lights-square-8k-fq.jpg");
   background-position: center center;
   background-size: cover;
   z-index: 1;
@@ -373,7 +373,7 @@ ul.timeline>li:before {
 }
 
 .custom-card ul li {
-  color: dodgerblue;
+  color: white;
   text-align: center;
   padding: 12px 0;
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
@@ -495,30 +495,32 @@ h5 {
 
 .btn-outline-primary{
   background-color: white;
-  color: dodgerblue;
-  border-color: dodgerblue;
+  color: rgb(255, 0, 98);;
+  border-color: rgb(255, 0, 98);
+  font-weight: bolder;
 }
 
 .btn-outline-primary:hover{
-  background-color: dodgerblue;
+  background-color: rgb(255, 0, 98);
   color: white;
-  border-color: dodgerblue;
+  border-color: rgb(255, 0, 98);
+  font-weight: bolder;
 }
 
 .fa-github:hover{
-  color: dodgerblue;
+  color: white;
   font-size: 40px;
   transition: 0.5s;
 }
 
 .fa-whatsapp:hover{
-  color: dodgerblue;
+  color: white;
   font-size: 40px;
   transition: 0.5s;
 }
 
 .fa-linkedin:hover{
-  color: dodgerblue;
+  color: white;
   font-size: 40px;
   transition: 0.5s;
 }
