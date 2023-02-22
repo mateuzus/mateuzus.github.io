@@ -22,10 +22,13 @@
 *
 */
 
-html, body, p, a {
+html,
+body,
+p,
+a {
   margin: 0;
   padding: 0;
-  color: var(--primary);
+  color: var(--black);
   font-weight: bold;
 }
 
@@ -58,8 +61,8 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 70px;
-  background-color: #000000;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 /*
@@ -90,6 +93,18 @@ section {
 
 .navbar .navbar-brand {
   color: var(--white);
+  font-family: "Press Start 2P", cursive;
+}
+
+.name {
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.job {
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px !important;
 }
 
 /* Change navbar styling on scroll */
@@ -102,7 +117,8 @@ section {
   color: var(--white);
 }
 
-.navbar.active .nav-link:hover, .navbar.active .nav-link:focus {
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
   color: var(--white);
   text-decoration: none;
 }
@@ -126,7 +142,7 @@ section {
 }
 
 .single-slider {
-  background-image: url("../img/circle-triangle-shapes-abstract-5k-nn.jpg");
+  background-image: url("../img/shapes-white-graffiti-8k-n2.jpg");
   background-position: center center;
   background-size: cover;
   z-index: 1;
@@ -153,7 +169,6 @@ section {
   color: var(--white);
   font-size: 60px;
   font-weight: 700;
-  text-transform: capitalize;
 }
 
 .slider-title h2 {
@@ -161,7 +176,6 @@ section {
   font-size: 20px;
   font-weight: 400;
   padding: 0;
-  text-transform: capitalize;
 }
 
 .slider-icon ul {
@@ -177,6 +191,11 @@ section {
   display: block;
   font-size: 2em;
   margin-right: 10px;
+}
+
+.slider-icon li a img {
+  width: 50px;
+  height: 50px;
 }
 
 .slider-icon li a:hover {
@@ -284,11 +303,12 @@ section {
 */
 
 .user-image {
-  background-image: url("../img/mat.png");
-  background-position: center center;
-  background-size: cover;
-  height: 550px;
-  border-radius: 10%;
+  background-image: url("../img/Mateus.jpeg");
+  background-position: center;
+  background-size: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 /*
@@ -330,12 +350,12 @@ ul.timeline:before {
   z-index: 1;
 }
 
-ul.timeline>li {
+ul.timeline > li {
   margin: 20px 0;
   padding-left: 50px;
 }
 
-ul.timeline>li:before {
+ul.timeline > li:before {
   content: " ";
   background: var(--white);
   display: inline-block;
@@ -361,10 +381,10 @@ ul.timeline>li:before {
   width: 100%;
   margin: 30px 0 30px 0;
   border-radius: 6px;
-  color: rgba(0, 0, 0, 0.87);
-  background: black;
+  color: black;
+  background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-color: white;
+  border-color: black;
 }
 
 .custom-card ul {
@@ -375,11 +395,16 @@ ul.timeline>li:before {
 }
 
 .custom-card ul li {
-  color: white;
+  color: black;
   text-align: center;
   padding: 12px 0;
   border-bottom: 1px solid rgba(153, 153, 153, 0.3);
-  border-color: white;
+  border-color: black;
+}
+
+.custom-card ul li img {
+  width: 40px;
+  height: 40px;
 }
 
 .custom-card ul li:last-child {
@@ -395,7 +420,7 @@ ul.timeline>li:before {
 }
 
 .bg-light {
-  background-color: black !important;
+  background-color: white !important;
 }
 
 /*
@@ -408,8 +433,8 @@ ul.timeline>li:before {
 .footer {
   display: block;
   text-align: center;
-  background: var(--black);
-  color: var(--white);
+  background: white;
+  color: black;
   padding: 50px;
 }
 
@@ -461,7 +486,8 @@ ul.timeline>li:before {
   margin: 8px auto;
 }
 
-.borderless td, .borderless th {
+.borderless td,
+.borderless th {
   border: none;
 }
 
@@ -495,36 +521,41 @@ h5 {
   font-weight: 700;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
   background-color: white;
   color: var(--primary);
   border-color: var(--primary);
   font-weight: bolder;
 }
 
-.btn-outline-primary:hover{
+.btn-outline-primary:hover {
   background-color: var(--primary);
   color: white;
   border-color: var(--primary);
   font-weight: bolder;
 }
 
-.fa-github:hover{
+.fa-github:hover {
   color: white;
   font-size: 40px;
   transition: 0.5s;
 }
 
-.fa-whatsapp:hover{
+.fa-whatsapp:hover {
   color: white;
   font-size: 40px;
   transition: 0.5s;
 }
 
-.fa-linkedin:hover{
+.fa-linkedin:hover {
   color: white;
   font-size: 40px;
   transition: 0.5s;
 }
 
-
+.visualizar-credencial:hover {
+  font-size: 17px !important;
+  transition: 0.2s;
+  color: var(--primary) !important;
+  text-decoration: none;
+}
